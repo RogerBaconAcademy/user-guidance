@@ -20,13 +20,26 @@ All other languages will defer to Google style guides.
 ## **Text Editors**
 
 ### VS Code
-VS Code is a text editor developed by Microsoft. This text editor nativle supports many languages and tool as well as being highly extensible throught he use of third party extensions. VS Code is an highly effective solution to coding in python, javascript, HTML/CSS, and many others. It has available integration with Git, Github, and Docker. It also has available extensions for managing remote connections such as SSH.  
+VS Code is a text editor developed by Microsoft. This text editor nativle supports many languages and tool as well as being highly extensible throught he use of third party extensions. VS Code is an highly effective solution to coding in python, javascript, HTML/CSS, and many others. It has available integration with Git, Github, and Docker. It also has available extensions for managing remote connections such as SSH.
+
+- [Get VS Code](https://code.visualstudio.com/)
 
 ### Jupyter
+Jupyter is a editor built for python but has suppprt for other languages as well Jupyter Notebooks are Jupyter's native file type these notebook allow for the execution of code by cell which is extremely useful in developement and testing. Much like VS code Jupyter is highly extensible through the use of third party extensions. Jupyter is an excelent choice for deveoping data pipelines and Machine Learning Models.
 
-### Notepadd++
-Notepadd++ is a very simple editor. It is best to think of it as an improved version of notepad. Much like Vim it has the advantage of being able to read almost any file type. Notepad++ is often used to hold snippets and repair improperly encoded text.
+- Get Jupyter
+```
+pip install jupyterlab
+```
+
+### Notepad++
+Notepad++ is a very simple editor. It is best to think of it as an improved version of notepad. Much like Vim it has the advantage of being able to read almost any file type. Notepad++ is often used to hold snippets and repair improperly encoded text.
+
+- [Get Notepad++](https://notepad-plus-plus.org/downloads/)
 
 ### Vim
 Vim is our standard editor in Linux enviornments. This editor is a lightweight editor which lacks features such as linters and auto-complete. This editor is an excelent choice for small changes on deployed code.
+
+
+
 
