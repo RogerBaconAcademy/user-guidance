@@ -40,7 +40,7 @@ Notepad++ is a very simple editor. It is best to think of it as an improved vers
 ### Vim
 Vim is our standard editor in Linux enviornments. This editor is a lightweight editor which lacks features such as linters and auto-complete. This editor is an excelent choice for small changes on deployed code.
 
-**Get Vim**     ![Ubuntu](https://img.shields.io/badge/-Ubuntu-000?&logo=Ubuntu)                                                                                                
+**Get Vim**     ![Ubuntu](https://img.shields.io/badge/--000?&logo=Ubuntu)                                                                                                
 ```
 sudo apt-get update
 sudo apt-get install vim
