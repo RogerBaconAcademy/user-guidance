@@ -4,7 +4,7 @@
 While there is no one way to write a python file this will serve as a good starting point for those new to python.
 ### **Dependencies / Imports**
 Every python file ***must*** begin with the require pacckages to be imported. This will also be the appropriate place to leave critical not such as if a specific version of python is required.
-```
+```python
 #python==3.8.10
 
 import numpy as np
@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 ```
 ### **Local Imports**
 Local imports are `.py` files ment to assist with the running of your current script. Perhaps you are analyzing historic financial data and you have already built a function called `adjust_4_inflation()` within `inflation_adjusted.py` that you would like to reuse. If the two files are in the same directory you can import it as follows:
-```
+```python
 from inflation_adjusted import adjust_4_inflation
 ```
 
@@ -34,11 +34,11 @@ Python notebooks allow a user to merge text, html, ideo, mages, code, and other 
 
 ## **Special Operators**
 - `#` is a comments opperator. When placed on a line, all code that comes after it becomes non-executable.
-```
+```python
 example = 'This code will be executed' # example = 'This code will not'
 ```
 - `''''''` denotes a multi-line string. It is often used for multiline comments.
-```
+```python
 '''
 This is all 
 part of the 
@@ -46,7 +46,7 @@ same string
 '''
 ```
 - `\` is an escape character. This is often used to denote a litteral component of a string.
-```
+```python
 '\'' # this is the string '
 ''' # this will throw an error
 ```
