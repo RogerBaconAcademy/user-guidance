@@ -9,3 +9,9 @@ This repository holds documentation associated with usage standards for all repo
 > One of Guido's key insights is that code is read much more often than it is written. The guidelines provided here are intended to improve the readability of code and make it consistent across the wide spectrum of Python code. As PEP 20 says, "Readability counts".
 
 ### Other
+All other languages will defer to Google style guides.
+
+- [Javascript](https://google.github.io/styleguide/jsguide.html)
+- [HTML/CSS](https://google.github.io/styleguide/htmlcssguide.html)
+- [Shell](https://google.github.io/styleguide/shellguide.html)
+- [R](https://google.github.io/styleguide/Rguide.html)
