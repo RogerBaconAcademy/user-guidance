@@ -27,7 +27,7 @@ VS Code is a text editor developed by Microsoft. This text editor nativle suppor
 ### Jupyter
 Jupyter is a editor built for python but has suppprt for other languages as well Jupyter Notebooks are Jupyter's native file type these notebook allow for the execution of code by cell which is extremely useful in developement and testing. Much like VS code Jupyter is highly extensible through the use of third party extensions. Jupyter is an excelent choice for deveoping data pipelines and Machine Learning Models.
 
-- Get Jupyter
+Get Jupyter________
 ```
 pip install jupyterlab
 ```
