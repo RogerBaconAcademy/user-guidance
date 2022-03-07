@@ -18,10 +18,51 @@ from inflation_adjusted import adjust_4_inflation
 ```
 
 ### Variables
+The variables defined here will be those which are use repeatedly within the rest of the file. Using the example above of inflation you could denote this rate in a number of ways.
+```python
+inflation2021 = 0.07 #  Single stored value
 
-### Classes / Function
+inflation = {
+  '2021':0.070,
+  '2020':0.014,      #  Dictionary of stored values
+  '2019':0.023,
+  '2018':0.019
+}
+```
+
+### Classes / Functions
+Classes are one of the most fundamental aspects of python programing and are made up of attributes and methods. Classes define an object in python. To be instantiated each class must at contain the attribute `self`. Functions take `arguments` and use them to preform tasks.
+```python
+# Example of a class definition
+class student:
+    def __init__(self, name:str, grade:str, school:str, score1:float, score2:float):   ###
+        self.name = name                                                                 #
+        self.grade = grade                                                               #  This defines the attributes 
+        self.school = school                                                             #
+        self.score1 = score1                                                             #
+        self.score2 = score2                                                           ###
+    
+    def avg_score(self):                         
+        return (self.score1+self.score2)/2   # This is a method
+ 
+ 
+# Example of a function definition
+def score_avg(scores:list):
+    return sum(scores)/len(scores)
+```
 
 ### Code Body
+This portion of the file is where the core data manipulations and transformation should take place. this will often start with reading and cleaning data and end with the eventual export of the data. In between those steps can include many tasks such as runing functions and instantiating classes.
+```python
+ # Example of class instance, this would be refered to as <class> object or in this case student object.
+tommy = student('tommy', '3', 'school', 95, 78)
+
+tommy.grade          # Result: '3'
+
+tommy.avg_score()    # Result: 86.5
+
+score_avg([95, 78])  # Result: 86.5
+```
 
 ## **Types of Python Files**
 ### **Traditional**
