@@ -54,7 +54,7 @@ def score_avg(scores:list):
 ### Code Body
 This portion of the file is where the core data manipulations and transformation should take place. this will often start with reading and cleaning data and end with the eventual export of the data. In between those steps can include many tasks such as runing functions and instantiating classes.
 ```python
- # Example of class instance, this would be refered to as <class> object or in this case student object.
+ # Example of class instance, this would be refered to as a <class> object or in this case a student object.
 tommy = student('tommy', '3', 'school', 95, 78)
 
 tommy.grade          # Result: '3'
