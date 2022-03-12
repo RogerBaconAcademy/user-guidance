@@ -3,7 +3,7 @@
 ## **Sections of a Python File**
 While there is no one way to write a python file this will serve as a good starting point for those new to python.
 ### **Dependencies / Imports**
-Every python file ***must*** begin with the require pacckages to be imported. This will also be the appropriate place to leave critical not such as if a specific version of python is required.
+Every python file ***must*** begin with the require packages to be imported. This will also be the appropriate place to leave critical comments such as if a specific version of python is required.
 ```python
 #python==3.8.10
 
