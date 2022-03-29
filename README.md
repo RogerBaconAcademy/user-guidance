@@ -20,7 +20,7 @@ All other languages will defer to Google style guides.
 ## **Text Editors**
 
 ### VS Code
-VS Code is a text editor developed by Microsoft. This text editor nativle supports many languages and tool as well as being highly extensible throught he use of third party extensions. VS Code is an highly effective solution to coding in python, javascript, HTML/CSS, and many others. It has available integration with Git, Github, and Docker. It also has available extensions for managing remote connections such as SSH.
+VS Code is a text editor developed by Microsoft. This text editor natively supports many languages and tool as well as being highly extensible throught he use of third party extensions. VS Code is a highly effective solution to coding in python, javascript, HTML/CSS, and many others. It has available integration with Git, Github, and Docker. It also has available extensions for managing remote connections such as SSH.
 
 - [Get VS Code](https://code.visualstudio.com/)
 
